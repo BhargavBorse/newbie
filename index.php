@@ -16,7 +16,7 @@
         
         <!-- Icon Font CSS -->
         <link rel="stylesheet" href="assets/css/icons.min.css">
-         
+        
         <!-- Plugins CSS -->
         <link rel="stylesheet" href="assets/css/plugins.css">
         
@@ -49,8 +49,10 @@
                         <div class="col-lg-6 col-md-5 col-12 col-sm-4">
                             <div class="login-register">
                                 <ul>
-                                    <li><a href="login-register.html">Login</a></li>
-                                    <li><a href="login-register.html">Register</a></li>
+                                    <?php
+                                        $s= $_GET['enr'];
+                                        echo $s;
+                                    ?>
                                 </ul>
                             </div>
                         </div>
