@@ -1,0 +1,54 @@
+body{
+    background-image: url(erez-attias-58871-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table, td, th{
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table-main{
+    /* margin-left: 15%; */
+    width: 30%;
+    height: 30%;
+    margin-top: 8%;
+}
+table{
+    /* margin-left: 15%; */
+    width: 45%;
+    height: 10%;
+    margin-top: 2%;
+}
+#text_main{
+	width:220px;
+	height:35px;
+	border-radius:5px 5px 5px 5px;
+	padding:10px;
+	font-size:13px;
+	border-color: black;
+}
+#dropdown{
+	width:220px;
+	height:35px;
+	border-radius:5px 5px 5px 5px;
+	padding:10px;
+	font-size:13px;
+	border-color: black;
+}
+#button2{
+	width:100px;
+	height:35px;
+	left:750px;
+	top:625px;
+	background-color: black;
+	font-family:verdana;
+	font-size:18px;
+	color: white;
+	border-radius:5px 5px 5px 5px;
+	margin-left: 2%;
+	border-style: none;
+	cursor:pointer;	
+}
